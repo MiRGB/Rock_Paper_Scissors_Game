@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="shake">Rock Paper Scissors</h1>
+    <audio id="background-music" loop>
+        <source src="src/background-music.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <div class="choices">
+        <img src="src/rock.png" alt="Rock" id="rock" class="choice">
+        <img src="src/paper.png" alt="Paper" id="paper" class="choice">
+        <img src="src/scissors.png" alt="Scissors" id="scissors" class="choice">
+    </div>
+    <div>
+        <h2>Your choice: <span id="user-choice"></span></h2>
+        <h2>Computer's choice: <span id="computer-choice"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+    </div>
+    <div id="counter">
+        <h3>Wins: <span id="wins">0</span></h3>
+        <h3>Losses: <span id="losses">0</span></h3>
+    </div>
+    <button id="start-music">
+        <span class="button-text play-text">Play Music</span>
+        <span class="button-text stop-text hidden">Stop Music</span>
+    </button>
+    <script src="app.js"></script>
+</body>
+</html>

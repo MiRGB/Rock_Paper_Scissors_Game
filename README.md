@@ -1,1 +1,1 @@
-# Rock_Paper_Scissors_Game
+A web application that allows you to comfortably play the popular game Rock, Paper, Scissors in the browser. Its advantage is a user-friendly graphical interface enhanced with the option to play background music. To launch the application, you need to open the index.html file using any web browser.
