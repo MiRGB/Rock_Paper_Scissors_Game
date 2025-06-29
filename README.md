@@ -38,3 +38,8 @@ No additional setup or installation required.
 
 🙌 Acknowledgements
 This project was created as a practice exercise to improve front-end development skills and UI design. Feedback and suggestions are welcome!
+
+## 📄 Copyright Notice
+
+Copyright © MiRGB, 2025.  
+All rights reserved.
